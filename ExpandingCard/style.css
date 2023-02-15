@@ -30,10 +30,10 @@
 }
 
 .card.active {
-    max-width: 64rem;
-    width: 64rem;
-    height: 80%;
-    max-height: 64rem;
+    max-width: 51.2rem;
+    width: 51.2rem;
+    height: 51.2rem;
+    max-height: 80%;
     box-shadow: 0 0 .3rem rgba(0, 0, 0, 1);
     animation: expand .7s ease-in;
 }
@@ -52,6 +52,6 @@
     }
 
     to {
-        width: 64rem;
+        width: 51.2rem;
     }
 }
