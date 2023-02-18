@@ -4,8 +4,8 @@ ctx.canvas.width = window.innerWidth;
 ctx.canvas.height = window.innerHeight;
 let particleArray = [];
 let ballCount = Math.min(
-  Math.ceil(window.innerWidth / 4),
-  Math.ceil(window.innerHeight / 2.25)
+  Math.ceil(window.innerWidth / 12),
+  Math.ceil(window.innerHeight / 7)
 );
 const colors = ["#FBEEC1", "#C5CBE3", "#A4B3B6"];
 let colorIndex = 0;
@@ -68,8 +68,8 @@ window.addEventListener("resize", () => {
 
   particleArray = [];
   ballCount = Math.min(
-    Math.ceil(window.innerWidth / 4),
-    Math.ceil(window.innerHeight / 2.25)
+    Math.ceil(window.innerWidth / 12),
+    Math.ceil(window.innerHeight / 7)
   );
   init(ballCount);
 });
