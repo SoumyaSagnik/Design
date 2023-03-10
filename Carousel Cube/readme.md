@@ -8,6 +8,6 @@
 
 ## Fully Responsive
 
-<p>
+<p align="center">
     <img src="./images/ss2.png">
 </p>
