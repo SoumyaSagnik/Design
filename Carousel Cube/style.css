@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+    overflow: hidden;
+    background-color: palegoldenrod;
+}
+
+#myCarousel {
+    width: 64rem;
+    height: 64rem;
+    max-width: 90vw;
+    max-height: 90dvh;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
+
+#left,
+#right {
+    color: azure;
+    transition: all .3s;
+}
+
+#left:hover,
+#right:hover {
+    color: burlywood;
+    scale: .9;
+}
